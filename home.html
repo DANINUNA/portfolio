@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <style>
+
+    @import url("https://use.typekit.net/tsu4uhi.css");
+    </style>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="hamburger-wrap">
+    <div class='hamburger'>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="popup-menu">
+        <ul>
+            <li><a href="#">POINT OF VIEW</a></li>
+            <li><a href="#">INTRODUCTION</a></li>
+            <li><a href="#">CLONE CODING</a></li>
+            <li><a href="#">VIDEO 1</a></li>
+            <li><a href="#">VIDEO 2</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </div>
+  </div>
+    
+      
+    <header class="header-wrap">
+        <nav style="margin-bottom: 50px;">
+            <ul>
+                <li><a href="#">POINT OF VIEW</a></li>
+                <li><a href="#">INTRODUCTION</a></li>
+                <li><a href="#">CLONE CODING</a></li>
+                <li><a href="#">VIDEO1</a></li>
+                <li><a href="#">VIDEO2</a></li>
+                <li><a href="#">CONTACT</a></li>    
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- point of view -->
+        <section id="pointofview" class="item">
+            <!-- 화면 누르면 나오는 팝업창 -->
+            <div class="popup">
+                <span class="popupfull"></span>        
+                <div class="iframebox"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZDurqoIw-Xs?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            </div>
+            <h2>point of view</h2>
+            <p>포트폴리오 소개</p>
+            <div class="cloud">
+                <div class="puffs"></div>
+              <div class="rain">
+                  <div class="drop"></div>
+                 <div class="drop"></div>
+                 <div class="drop"></div>
+                 <div class="drop"></div>
+                 <div class="drop"></div>
+                 <div class="drop"></div>
+              </div>
+            </div>
+            <div class="firstframe">
+                <div class="rose">
+                    <img src="images/rose.png" alt="rose">
+                </div> 
+                <div class="blueline">             
+                <iframe width="70%" height="70%" 
+                src="https://www.youtube.com/embed/ZDurqoIw-Xs?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+                </div> 
+            </div>
+            <div class="firstpeople"><img class="people" src="images/firstpeople.png" alt="">
+            </div>
+        </section>
+        <!-- introduction -->
+        <section id="introduction" class="item">
+            <h2>introduction</h2>
+            <p>내가 다룰줄아는 스킬~ </p>
+        
+            <div class="toolgroup" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">
+                <div class="aftereffect" data-aos="zoom-in-left" data-aos-easing="ease-in" data-aos-duration="1000"><img src="images/toolAe.png" alt=""></div>
+                <div class="illustrator" data-aos="fade-up-right" data-aos-easing="ease-in"><img src="images/toolAi.png" alt=""></div>
+                <div class="blender" data-aos="fade-up"
+                data-aos-duration="800"data-aos-easing="ease-in"><img src="images/toolblender.png" alt=""></div>
+                <div class="css" data-aos="zoom-in-right" data-aos-duration="2000"><img src="images/toolcss.png" alt=""></div>
+                <div class="html5"data-aos="zoom-in-left" data-aos-duration="1000"><img src="images/toolhtml5.png" alt=""></div>
+                <div class="javascript" data-aos="zoom-out-right" data-aos-duration="1000"><img src="images/tooljs.png" alt=""></div>
+                <div class="premierepro"><img src="images/toolPr.png" alt=""></div>
+                <div class="photoshop" data-aos="fade-up-right"data-aos-duration="800"><img src="images/toolps.png" alt=""></div>
+            </div>
+            <div class="secondpeople-parent">
+                <div class="secondpeople"><img src="images/secondpeople.png" alt=""></div>
+            </div>
+        </section>
+        <section id="creations1" class="item">
+            <h2>creations1</h2>
+            <p>CLONE CODING RANDIS</p>
+            <div class="codingzone">
+                <div class="arrow"></div>
+                <div class="randys-parent">
+                    <div class="randysstore"></div>
+                    <div class="randysgold"></div>
+                </div>
+            </div>
+        </section>
+        <section id="creations2" class="item">
+            <h2>creations2</h2>
+            <p>VIDEO1</p>
+            
+        </section>
+        <section id="creations3" class="item">
+            <h2>creations3</h2>
+            <p>VIDEO2</p>
+        </section>
+    <section id="contact" class="item">
+    <h2>CONTACT</h2>
+    <p>내 사진, 연락처~</p>
+<div class="table-parent">
+<div class="table">
+    <img  class="tablematte" src="images/tablematte.png" alt="">
+    <div class="card">
+        <div class="imgBox">
+            <div class="bark"></div>
+            <img src="images/bookcover.jpg" alt="" width="100%">
+        </div>
+        <div class="details">
+            <!-- <h4 class="color1">You're not a Fossil! (YET)</h4>
+            <h4 class="color2 margin">(HAPPY BIRTHDAY)</h4> -->
+            <p style="font-weight: 600;">NAME</p>
+            <p>BAEK JEE WON</p>
+            <p style="font-weight: 600;">TEL</p>
+            <p>010-6676-4049</p>
+            <p style="font-weight: 600;">EMAIL</p>
+            <p>elmo602@kakao.com</p>
+            <p class="text-right">THANKS♥</p>
+        </div>
+    </div>
+    <div class="secondframe"><img src="images/mirrorexample.png"></div>
+</div>
+</div>
+</section>
+    </main>
+    <footer>
+        <p>copyright &copy; zzion portfolio, All right reserved</p>
+    </footer>
+
+</div>
+</body>
+</html>
+
+<!-- 마우스 효과 추가???? -->
+<!-- video 부분은 슬라이드..????? -->
+<!-- 배경에 효과찾기 -->
+<!-- 폰트 찾기 -->
